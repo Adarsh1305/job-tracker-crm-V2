@@ -34,19 +34,13 @@ Built with **Next.js (App Router)**, **React**, **Tailwind CSS**, **Lucide Icons
 ---
 
 ## 🔐 Credentials & Environment Setup
-
-### Default Authentication Credentials
-- **Email**: `adarsh.vinodhan.00@gmail.com`
-- **Password**: `Dubai2026!`
-- *(A one-click "Auto-fill Default Credentials" button is provided on the login page for effortless testing).*
-
 ### Environment Variables (`.env.local`)
 ```env
-AUTH_EMAIL=adarsh.vinodhan.00@gmail.com
-AUTH_PASSWORD=Dubai2026!
-SESSION_SECRET=c8e9b41a94f045bb9b7c8df0741295f5e27a7c8e5d0b49ac9f1e3d647a9b0c2e
-NEXT_PUBLIC_APP_NAME="JobHunt CRM"
-NEXT_PUBLIC_USER_NAME="Adarsh Vinothan"
+AUTH_EMAIL=
+AUTH_PASSWORD=
+SESSION_SECRET=
+NEXT_PUBLIC_APP_NAME=""
+NEXT_PUBLIC_USER_NAME=""
 ```
 
 ---
@@ -61,7 +55,6 @@ http://localhost:3000
 
 To run development mode:
 ```bash
-cd "C:\Users\it-xs\.gemini\antigravity\scratch\job-tracker-crm"
 npm run dev
 ```
 
