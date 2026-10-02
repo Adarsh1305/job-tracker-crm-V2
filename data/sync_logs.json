@@ -1,0 +1,516 @@
+[
+  {
+    "id": "SYNC-1790952822312",
+    "timestamp": "2026-10-02T14:53:42.312Z",
+    "type": "google_sheets",
+    "sourceName": "Google Sheets (CSV URL: https://docs.google.com/spread...)",
+    "total_rows": 83,
+    "new_count": 83,
+    "updated_count": 0,
+    "duplicate_count": 0,
+    "error_count": 0,
+    "status": "success",
+    "message": "Processed 83 rows: 83 new, 0 updated, 0 duplicates skipped, 0 failed. Database total: 83.",
+    "details": [
+      {
+        "jobId": "JOB-2026-001",
+        "action": "created",
+        "title": "Node.js Developer",
+        "company": "FallenAmbers"
+      },
+      {
+        "jobId": "JOB-2026-002",
+        "action": "created",
+        "title": "JavaScript Developer",
+        "company": "joblet-ai"
+      },
+      {
+        "jobId": "JOB-2026-003",
+        "action": "created",
+        "title": "Full Stack Engineer (Core Systems & Automated Infrastructure)",
+        "company": "Next Match AI LLC"
+      },
+      {
+        "jobId": "JOB-2026-004",
+        "action": "created",
+        "title": "Backend Developer",
+        "company": "GG Selection"
+      },
+      {
+        "jobId": "JOB-2026-005",
+        "action": "created",
+        "title": "Front-end Developer",
+        "company": "AppliedAI (Opus platform)"
+      },
+      {
+        "jobId": "JOB-2026-006",
+        "action": "created",
+        "title": "Senior Node.js Backend Developer",
+        "company": "agapi"
+      },
+      {
+        "jobId": "JOB-2026-007",
+        "action": "created",
+        "title": "Full Stack Developer (React.js / Next.js / Nest.js)",
+        "company": "Mullers Solutions"
+      },
+      {
+        "jobId": "JOB-2026-008",
+        "action": "created",
+        "title": "Backend Developer",
+        "company": "Nexus Blue Project Management"
+      },
+      {
+        "jobId": "JOB-2026-009",
+        "action": "created",
+        "title": "Full Stack Developer",
+        "company": "Naffco"
+      },
+      {
+        "jobId": "JOB-2026-010",
+        "action": "created",
+        "title": "ReactJS Developer",
+        "company": "Virtusa"
+      },
+      {
+        "jobId": "JOB-2026-011",
+        "action": "created",
+        "title": "Senior Front-End Developer (Next.js / React)",
+        "company": "Driven Properties"
+      },
+      {
+        "jobId": "JOB-2026-012",
+        "action": "created",
+        "title": "Founding Full Stack Engineer",
+        "company": "Novice.ai (ulex.ai)"
+      },
+      {
+        "jobId": "JOB-2026-013",
+        "action": "created",
+        "title": "ERPNext / Frappe Developer (React.js)",
+        "company": "Emirates Properties"
+      },
+      {
+        "jobId": "JOB-2026-014",
+        "action": "created",
+        "title": "Fullstack Python & React.js Developer (UAE)",
+        "company": "CloudPSO"
+      },
+      {
+        "jobId": "JOB-2026-015",
+        "action": "created",
+        "title": "Senior Full Stack AI Engineer (Next.js + NestJS + AI Tools)",
+        "company": "Qureos (real estate client)"
+      },
+      {
+        "jobId": "JOB-2026-016",
+        "action": "created",
+        "title": "Junior Full-Stack Engineer (Node.js | Next.js | NestJS | React)",
+        "company": "Quantum Horizon Technology L.L.C"
+      },
+      {
+        "jobId": "JOB-2026-017",
+        "action": "created",
+        "title": "Junior Frontend Engineer — Search",
+        "company": "Property Finder"
+      },
+      {
+        "jobId": "JOB-2026-018",
+        "action": "created",
+        "title": "Middle Next.js Developer",
+        "company": "Ruby Labs"
+      },
+      {
+        "jobId": "JOB-2026-019",
+        "action": "created",
+        "title": "Senior React Developer",
+        "company": "The Address Properties LLC"
+      },
+      {
+        "jobId": "JOB-2026-020",
+        "action": "created",
+        "title": "Senior Front End Engineer",
+        "company": "Stella Stays"
+      },
+      {
+        "jobId": "JOB-2026-021",
+        "action": "created",
+        "title": "PHP Business-Logic Programmer",
+        "company": "Virtua Advanced Solution"
+      },
+      {
+        "jobId": "JOB-2026-022",
+        "action": "created",
+        "title": "Tech Lead, Senior Backend Developer — TypeScript, Node.js",
+        "company": "Utorg Labs"
+      },
+      {
+        "jobId": "JOB-2026-023",
+        "action": "created",
+        "title": "IT Software Engineer",
+        "company": "Dream Com"
+      },
+      {
+        "jobId": "JOB-2026-024",
+        "action": "created",
+        "title": "Full Stack Developer and Systems Manager",
+        "company": "Apt Resources"
+      },
+      {
+        "jobId": "JOB-2026-025",
+        "action": "created",
+        "title": "CRM Developer",
+        "company": "Al Marwan Group"
+      },
+      {
+        "jobId": "JOB-2026-026",
+        "action": "created",
+        "title": "Front End Developer",
+        "company": "INS Global (client unnamed)"
+      },
+      {
+        "jobId": "JOB-2026-027",
+        "action": "created",
+        "title": "Frontend Developer (React.js + Tailwind CSS)",
+        "company": "Logos Technologies"
+      },
+      {
+        "jobId": "JOB-2026-028",
+        "action": "created",
+        "title": "Frontend Engineer (UI/UX Systems)",
+        "company": "Luna PR"
+      },
+      {
+        "jobId": "JOB-2026-029",
+        "action": "created",
+        "title": "Senior Backend Developer",
+        "company": "agapi"
+      },
+      {
+        "jobId": "JOB-2026-030",
+        "action": "created",
+        "title": "Full Stack Developer (Web & Mobile)",
+        "company": "Gulf Overseas HR Consultancy"
+      },
+      {
+        "jobId": "JOB-2026-031",
+        "action": "created",
+        "title": "Senior Software Engineer (GenAI & Node.js)",
+        "company": "GSSTech Group"
+      },
+      {
+        "jobId": "JOB-2026-032",
+        "action": "created",
+        "title": "Full Stack Developer",
+        "company": "Crescent Petroleum"
+      },
+      {
+        "jobId": "JOB-2026-033",
+        "action": "created",
+        "title": ".NET Full Stack Developer",
+        "company": "Excellent Webworld"
+      },
+      {
+        "jobId": "JOB-2026-034",
+        "action": "created",
+        "title": "Web Developer",
+        "company": "BrandConnect Media"
+      },
+      {
+        "jobId": "JOB-2026-035",
+        "action": "created",
+        "title": "Web Developer (Contract)",
+        "company": "BaseForce"
+      },
+      {
+        "jobId": "JOB-2026-036",
+        "action": "created",
+        "title": "Full-stack Developer (Senior Full Stack & AI Developer)",
+        "company": "CBOX Containers"
+      },
+      {
+        "jobId": "JOB-2026-037",
+        "action": "created",
+        "title": "Front End Developer - Level Shoes",
+        "company": "Chalhoub Group"
+      },
+      {
+        "jobId": "JOB-2026-038",
+        "action": "created",
+        "title": "Software Engineer - Full Stack (PF Scout)",
+        "company": "Property Finder"
+      },
+      {
+        "jobId": "JOB-2026-039",
+        "action": "created",
+        "title": "Full Stack Javascript Engineer",
+        "company": "Xpat Today (digital agency client)"
+      },
+      {
+        "jobId": "JOB-2026-040",
+        "action": "created",
+        "title": "Senior Engineer - Full Stack",
+        "company": "Inception42 (G42 company)"
+      },
+      {
+        "jobId": "JOB-2026-041",
+        "action": "created",
+        "title": "Backend Developer & DevOps Engineer",
+        "company": "Star Gallery Mart"
+      },
+      {
+        "jobId": "JOB-2026-042",
+        "action": "created",
+        "title": "MERN Stack Developer",
+        "company": "Tomsher Technologies LLC"
+      },
+      {
+        "jobId": "JOB-2026-043",
+        "action": "created",
+        "title": "Full Stack Web Developer",
+        "company": "Pure Docs Services"
+      },
+      {
+        "jobId": "JOB-2026-044",
+        "action": "created",
+        "title": "Senior Full Stack Engineer",
+        "company": "AutoData Middle East (World Automotive Group)"
+      },
+      {
+        "jobId": "JOB-2026-045",
+        "action": "created",
+        "title": "Senior Fullstack Developer (React & Django)",
+        "company": "Caliberly (recruiter — Dubai regional office client)"
+      },
+      {
+        "jobId": "JOB-2026-046",
+        "action": "created",
+        "title": "Full Stack Engineer (AI Delivery, Opus platform)",
+        "company": "AppliedAI"
+      },
+      {
+        "jobId": "JOB-2026-047",
+        "action": "created",
+        "title": "Tech Lead — MEAN Stack",
+        "company": "Xebia"
+      },
+      {
+        "jobId": "JOB-2026-048",
+        "action": "created",
+        "title": "Frontend Web Developer",
+        "company": "BAB ALOMDA INFORMATION TECHNOLOGY CO."
+      },
+      {
+        "jobId": "JOB-2026-049",
+        "action": "created",
+        "title": "Senior Full-Stack Developer — Project Ownership",
+        "company": "Codify Innovations Technologies LLC"
+      },
+      {
+        "jobId": "JOB-2026-050",
+        "action": "created",
+        "title": "Senior Front-End Engineer",
+        "company": "Fuse Energy"
+      },
+      {
+        "jobId": "JOB-2026-051",
+        "action": "created",
+        "title": "Software Development Officer",
+        "company": "Windmills Group"
+      },
+      {
+        "jobId": "JOB-2026-052",
+        "action": "created",
+        "title": "Backend Engineer (Microservices / API)",
+        "company": "KBC Technologies"
+      },
+      {
+        "jobId": "JOB-2026-053",
+        "action": "created",
+        "title": "Junior Laravel Developer",
+        "company": "Fama Group"
+      },
+      {
+        "jobId": "JOB-2026-054",
+        "action": "created",
+        "title": "Software Engineer — Traders Experience (AI-Native)",
+        "company": "NEXT Ventures (FundedNext)"
+      },
+      {
+        "jobId": "JOB-2026-055",
+        "action": "created",
+        "title": "Frontend Engineer (React Native, Banking)",
+        "company": "Dicetek LLC"
+      },
+      {
+        "jobId": "JOB-2026-056",
+        "action": "created",
+        "title": "Senior Engineer — Frontend",
+        "company": "Inception42 (G42 company)"
+      },
+      {
+        "jobId": "JOB-2026-057",
+        "action": "created",
+        "title": "Application Laravel Developer",
+        "company": "Housekeeping Co"
+      },
+      {
+        "jobId": "JOB-2026-0930-01",
+        "action": "created",
+        "title": "Senior Specialist, Cloud Application Engineer",
+        "company": "IHS Towers"
+      },
+      {
+        "jobId": "JOB-2026-0930-02",
+        "action": "created",
+        "title": "Full Stack Developer",
+        "company": "Global Corporation"
+      },
+      {
+        "jobId": "JOB-2026-0930-03",
+        "action": "created",
+        "title": "Full-Stack Developer (React / React Native / Node.js)",
+        "company": "Thribe Consulting"
+      },
+      {
+        "jobId": "JOB-2026-0930-04",
+        "action": "created",
+        "title": "Senior Full Stack Developer - TAMM",
+        "company": "Blackstone-eIT (BlackStone eIT)"
+      },
+      {
+        "jobId": "JOB-2026-0930-05",
+        "action": "created",
+        "title": "Tamm Developer",
+        "company": "MindPool Technologies"
+      },
+      {
+        "jobId": "JOB-2026-0930-06",
+        "action": "created",
+        "title": "Forward Deployed Engineer (Full-Stack, AI-Native), Senior-Level",
+        "company": "Not verified (employer hidden behind ZeroTaxJobs 'Unlock employer')"
+      },
+      {
+        "jobId": "JOB-2026-0930-07",
+        "action": "created",
+        "title": "Full-Stack Engineer",
+        "company": "Quantum Talent Group (client unnamed — Abu Dhabi organizations)"
+      },
+      {
+        "jobId": "JOB-2026-0930-08",
+        "action": "created",
+        "title": "Full Stack Developer (1-Year Contract)",
+        "company": "Hays (client unnamed)"
+      },
+      {
+        "jobId": "JOB-2026-0930-09",
+        "action": "created",
+        "title": "Senior AI-Native Full-Stack Engineer",
+        "company": "HireAlpha (recruiter — banking client)"
+      },
+      {
+        "jobId": "JOB-2026-0930-10",
+        "action": "created",
+        "title": "Technical Lead",
+        "company": "RiDiK (a subsidiary of CLPS, Nasdaq: CLPS)"
+      },
+      {
+        "jobId": "JOB-2026-1001-01",
+        "action": "created",
+        "title": "Senior Frontend Engineer, AI Experiences",
+        "company": "Analog"
+      },
+      {
+        "jobId": "JOB-2026-1001-02",
+        "action": "created",
+        "title": "Java Full Stack Developer",
+        "company": "HTC Global Services"
+      },
+      {
+        "jobId": "JOB-2026-1001-03",
+        "action": "created",
+        "title": "Senior Full Stack Consultant",
+        "company": "Capgemini"
+      },
+      {
+        "jobId": "JOB-2026-1001-04",
+        "action": "created",
+        "title": "Fullstack Engineer (AI-native)",
+        "company": "Qashio"
+      },
+      {
+        "jobId": "JOB-2026-1001-05",
+        "action": "created",
+        "title": "Senior Specialist - eCommerce and Web Development",
+        "company": "MIDIS Group"
+      },
+      {
+        "jobId": "JOB-2026-1001-06",
+        "action": "created",
+        "title": "Senior Software Engineer - Java FullStack - Platform Services",
+        "company": "Emirates (Emirates Group)"
+      },
+      {
+        "jobId": "JOB-2026-1001-07",
+        "action": "created",
+        "title": "Senior Specialist, Digital Advanced Automations Solutions",
+        "company": "ADNOC Group"
+      },
+      {
+        "jobId": "JOB-2026-1001-08",
+        "action": "created",
+        "title": "Agentic AI Solutions Engineer (Banking)",
+        "company": "VAM Systems"
+      },
+      {
+        "jobId": "JOB-2026-1001-09",
+        "action": "created",
+        "title": "Senior AI Full-Stack Engineer – Autonomous AI Systems",
+        "company": "Not verified (recruiter: JobItUs; client a Sharjah-based group)"
+      },
+      {
+        "jobId": "JOB-2026-1001-10",
+        "action": "created",
+        "title": "Mobile Developer, Senior-Level",
+        "company": "Globant"
+      },
+      {
+        "jobId": "JOB-2026-1001-11",
+        "action": "created",
+        "title": "Frontend Developer",
+        "company": "Not verified (employer via ZeroTaxJobs 'Unlock employer')"
+      },
+      {
+        "jobId": "JOB-2026-1001-12",
+        "action": "created",
+        "title": "PHP Angular Developer",
+        "company": "Not verified (employer via ZeroTaxJobs 'Unlock employer')"
+      },
+      {
+        "jobId": "JOB-2026-1001-13",
+        "action": "created",
+        "title": "Senior Java Developer (Redis & PostgreSQL)",
+        "company": "Aventus Global"
+      },
+      {
+        "jobId": "JOB-2026-1002-01",
+        "action": "created",
+        "title": "Full-Stack Engineer (Senior/Mid — MERN)",
+        "company": "CASABOT"
+      },
+      {
+        "jobId": "JOB-2026-1002-02",
+        "action": "created",
+        "title": "Frontend Engineer",
+        "company": "Advanced Digital Gaming Technology (ADGT)"
+      },
+      {
+        "jobId": "JOB-2026-1002-03",
+        "action": "created",
+        "title": "Software Engineer, .NET",
+        "company": "Advanced Digital Gaming Technology (ADGT)"
+      }
+    ],
+    "created_at": "2026-10-02T14:53:42.312Z"
+  }
+]

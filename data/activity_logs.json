@@ -1,0 +1,749 @@
+[
+  {
+    "id": "ACT-1790952822299-k61y",
+    "job_id": "JOB-2026-1002-03",
+    "type": "discovered",
+    "title": "Job Discovered: Software Engineer, .NET at Advanced Digital Gaming Technology (ADGT)",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 55%.",
+    "timestamp": "2026-10-02T14:53:42.299Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822296-hz5j",
+    "job_id": "JOB-2026-1002-02",
+    "type": "discovered",
+    "title": "Job Discovered: Frontend Engineer at Advanced Digital Gaming Technology (ADGT)",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 74%.",
+    "timestamp": "2026-10-02T14:53:42.296Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822294-ud5y",
+    "job_id": "JOB-2026-1002-01",
+    "type": "discovered",
+    "title": "Job Discovered: Full-Stack Engineer (Senior/Mid — MERN) at CASABOT",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 88%.",
+    "timestamp": "2026-10-02T14:53:42.294Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822292-anf4",
+    "job_id": "JOB-2026-1001-13",
+    "type": "discovered",
+    "title": "Job Discovered: Senior Java Developer (Redis & PostgreSQL) at Aventus Global",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 42%.",
+    "timestamp": "2026-10-02T14:53:42.292Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822289-jbnh",
+    "job_id": "JOB-2026-1001-12",
+    "type": "discovered",
+    "title": "Job Discovered: PHP Angular Developer at Not verified (employer via ZeroTaxJobs 'Unlock employer')",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 78%.",
+    "timestamp": "2026-10-02T14:53:42.289Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822287-tgkp",
+    "job_id": "JOB-2026-1001-11",
+    "type": "discovered",
+    "title": "Job Discovered: Frontend Developer at Not verified (employer via ZeroTaxJobs 'Unlock employer')",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 85%.",
+    "timestamp": "2026-10-02T14:53:42.287Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822284-5y3c",
+    "job_id": "JOB-2026-1001-10",
+    "type": "discovered",
+    "title": "Job Discovered: Mobile Developer, Senior-Level at Globant",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 50%.",
+    "timestamp": "2026-10-02T14:53:42.284Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822281-gjuw",
+    "job_id": "JOB-2026-1001-09",
+    "type": "discovered",
+    "title": "Job Discovered: Senior AI Full-Stack Engineer – Autonomous AI Systems at Not verified (recruiter: JobItUs; client a Sharjah-based group)",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 58%.",
+    "timestamp": "2026-10-02T14:53:42.281Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822279-9u75",
+    "job_id": "JOB-2026-1001-08",
+    "type": "discovered",
+    "title": "Job Discovered: Agentic AI Solutions Engineer (Banking) at VAM Systems",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 40%.",
+    "timestamp": "2026-10-02T14:53:42.279Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822276-p5zb",
+    "job_id": "JOB-2026-1001-07",
+    "type": "discovered",
+    "title": "Job Discovered: Senior Specialist, Digital Advanced Automations Solutions at ADNOC Group",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 45%.",
+    "timestamp": "2026-10-02T14:53:42.276Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822274-lvvy",
+    "job_id": "JOB-2026-1001-06",
+    "type": "discovered",
+    "title": "Job Discovered: Senior Software Engineer - Java FullStack - Platform Services at Emirates (Emirates Group)",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 60%.",
+    "timestamp": "2026-10-02T14:53:42.274Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822272-40v6",
+    "job_id": "JOB-2026-1001-05",
+    "type": "discovered",
+    "title": "Job Discovered: Senior Specialist - eCommerce and Web Development at MIDIS Group",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 55%.",
+    "timestamp": "2026-10-02T14:53:42.272Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822269-6ne7",
+    "job_id": "JOB-2026-1001-04",
+    "type": "discovered",
+    "title": "Job Discovered: Fullstack Engineer (AI-native) at Qashio",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 72%.",
+    "timestamp": "2026-10-02T14:53:42.269Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822267-rmcp",
+    "job_id": "JOB-2026-1001-03",
+    "type": "discovered",
+    "title": "Job Discovered: Senior Full Stack Consultant at Capgemini",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 80%.",
+    "timestamp": "2026-10-02T14:53:42.267Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822265-b3ey",
+    "job_id": "JOB-2026-1001-02",
+    "type": "discovered",
+    "title": "Job Discovered: Java Full Stack Developer at HTC Global Services",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 75%.",
+    "timestamp": "2026-10-02T14:53:42.265Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822261-8gdr",
+    "job_id": "JOB-2026-1001-01",
+    "type": "discovered",
+    "title": "Job Discovered: Senior Frontend Engineer, AI Experiences at Analog",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 88%.",
+    "timestamp": "2026-10-02T14:53:42.261Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822259-c1ig",
+    "job_id": "JOB-2026-0930-10",
+    "type": "discovered",
+    "title": "Job Discovered: Technical Lead at RiDiK (a subsidiary of CLPS, Nasdaq: CLPS)",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 45%.",
+    "timestamp": "2026-10-02T14:53:42.259Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822257-0jjt",
+    "job_id": "JOB-2026-0930-09",
+    "type": "discovered",
+    "title": "Job Discovered: Senior AI-Native Full-Stack Engineer at HireAlpha (recruiter — banking client)",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 45%.",
+    "timestamp": "2026-10-02T14:53:42.257Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822255-8ll9",
+    "job_id": "JOB-2026-0930-08",
+    "type": "discovered",
+    "title": "Job Discovered: Full Stack Developer (1-Year Contract) at Hays (client unnamed)",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 55%.",
+    "timestamp": "2026-10-02T14:53:42.255Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822254-aqqv",
+    "job_id": "JOB-2026-0930-07",
+    "type": "discovered",
+    "title": "Job Discovered: Full-Stack Engineer at Quantum Talent Group (client unnamed — Abu Dhabi organizations)",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 60%.",
+    "timestamp": "2026-10-02T14:53:42.254Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822252-ikhz",
+    "job_id": "JOB-2026-0930-06",
+    "type": "discovered",
+    "title": "Job Discovered: Forward Deployed Engineer (Full-Stack, AI-Native), Senior-Level at Not verified (employer hidden behind ZeroTaxJobs 'Unlock employer')",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 50%.",
+    "timestamp": "2026-10-02T14:53:42.252Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822251-pwd3",
+    "job_id": "JOB-2026-0930-05",
+    "type": "discovered",
+    "title": "Job Discovered: Tamm Developer at MindPool Technologies",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 55%.",
+    "timestamp": "2026-10-02T14:53:42.251Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822247-9lqx",
+    "job_id": "JOB-2026-0930-04",
+    "type": "discovered",
+    "title": "Job Discovered: Senior Full Stack Developer - TAMM at Blackstone-eIT (BlackStone eIT)",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 55%.",
+    "timestamp": "2026-10-02T14:53:42.247Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822245-lfie",
+    "job_id": "JOB-2026-0930-03",
+    "type": "discovered",
+    "title": "Job Discovered: Full-Stack Developer (React / React Native / Node.js) at Thribe Consulting",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 72%.",
+    "timestamp": "2026-10-02T14:53:42.245Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822242-cz7m",
+    "job_id": "JOB-2026-0930-02",
+    "type": "discovered",
+    "title": "Job Discovered: Full Stack Developer at Global Corporation",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 78%.",
+    "timestamp": "2026-10-02T14:53:42.242Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822236-45za",
+    "job_id": "JOB-2026-0930-01",
+    "type": "discovered",
+    "title": "Job Discovered: Senior Specialist, Cloud Application Engineer at IHS Towers",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 75%.",
+    "timestamp": "2026-10-02T14:53:42.236Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822230-5612",
+    "job_id": "JOB-2026-057",
+    "type": "discovered",
+    "title": "Job Discovered: Application Laravel Developer at Housekeeping Co",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 72%.",
+    "timestamp": "2026-10-02T14:53:42.230Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822228-d9wa",
+    "job_id": "JOB-2026-056",
+    "type": "discovered",
+    "title": "Job Discovered: Senior Engineer — Frontend at Inception42 (G42 company)",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 72%.",
+    "timestamp": "2026-10-02T14:53:42.228Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822226-ndbw",
+    "job_id": "JOB-2026-055",
+    "type": "discovered",
+    "title": "Job Discovered: Frontend Engineer (React Native, Banking) at Dicetek LLC",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 40%.",
+    "timestamp": "2026-10-02T14:53:42.226Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822223-z6ud",
+    "job_id": "JOB-2026-054",
+    "type": "discovered",
+    "title": "Job Discovered: Software Engineer — Traders Experience (AI-Native) at NEXT Ventures (FundedNext)",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 52%.",
+    "timestamp": "2026-10-02T14:53:42.223Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822219-4u38",
+    "job_id": "JOB-2026-053",
+    "type": "discovered",
+    "title": "Job Discovered: Junior Laravel Developer at Fama Group",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 60%.",
+    "timestamp": "2026-10-02T14:53:42.219Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822216-2agc",
+    "job_id": "JOB-2026-052",
+    "type": "discovered",
+    "title": "Job Discovered: Backend Engineer (Microservices / API) at KBC Technologies",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 58%.",
+    "timestamp": "2026-10-02T14:53:42.216Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822214-a4w1",
+    "job_id": "JOB-2026-051",
+    "type": "discovered",
+    "title": "Job Discovered: Software Development Officer at Windmills Group",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 65%.",
+    "timestamp": "2026-10-02T14:53:42.214Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822211-f5jc",
+    "job_id": "JOB-2026-050",
+    "type": "discovered",
+    "title": "Job Discovered: Senior Front-End Engineer at Fuse Energy",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 70%.",
+    "timestamp": "2026-10-02T14:53:42.211Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822209-lyr3",
+    "job_id": "JOB-2026-049",
+    "type": "discovered",
+    "title": "Job Discovered: Senior Full-Stack Developer — Project Ownership at Codify Innovations Technologies LLC",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 78%.",
+    "timestamp": "2026-10-02T14:53:42.209Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822198-y0zt",
+    "job_id": "JOB-2026-048",
+    "type": "discovered",
+    "title": "Job Discovered: Frontend Web Developer at BAB ALOMDA INFORMATION TECHNOLOGY CO.",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 85%.",
+    "timestamp": "2026-10-02T14:53:42.198Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822194-uv2g",
+    "job_id": "JOB-2026-047",
+    "type": "discovered",
+    "title": "Job Discovered: Tech Lead — MEAN Stack at Xebia",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 40%.",
+    "timestamp": "2026-10-02T14:53:42.194Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822188-joi9",
+    "job_id": "JOB-2026-046",
+    "type": "discovered",
+    "title": "Job Discovered: Full Stack Engineer (AI Delivery, Opus platform) at AppliedAI",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 45%.",
+    "timestamp": "2026-10-02T14:53:42.188Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822185-n8r5",
+    "job_id": "JOB-2026-045",
+    "type": "discovered",
+    "title": "Job Discovered: Senior Fullstack Developer (React & Django) at Caliberly (recruiter — Dubai regional office client)",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 55%.",
+    "timestamp": "2026-10-02T14:53:42.185Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822183-v60t",
+    "job_id": "JOB-2026-044",
+    "type": "discovered",
+    "title": "Job Discovered: Senior Full Stack Engineer at AutoData Middle East (World Automotive Group)",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 50%.",
+    "timestamp": "2026-10-02T14:53:42.183Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822178-586v",
+    "job_id": "JOB-2026-043",
+    "type": "discovered",
+    "title": "Job Discovered: Full Stack Web Developer at Pure Docs Services",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 50%.",
+    "timestamp": "2026-10-02T14:53:42.178Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822175-egpj",
+    "job_id": "JOB-2026-042",
+    "type": "discovered",
+    "title": "Job Discovered: MERN Stack Developer at Tomsher Technologies LLC",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 88%.",
+    "timestamp": "2026-10-02T14:53:42.175Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822173-yo27",
+    "job_id": "JOB-2026-041",
+    "type": "discovered",
+    "title": "Job Discovered: Backend Developer & DevOps Engineer at Star Gallery Mart",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 60%.",
+    "timestamp": "2026-10-02T14:53:42.173Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822168-ljuo",
+    "job_id": "JOB-2026-040",
+    "type": "discovered",
+    "title": "Job Discovered: Senior Engineer - Full Stack at Inception42 (G42 company)",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 55%.",
+    "timestamp": "2026-10-02T14:53:42.168Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822166-7ufv",
+    "job_id": "JOB-2026-039",
+    "type": "discovered",
+    "title": "Job Discovered: Full Stack Javascript Engineer at Xpat Today (digital agency client)",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 75%.",
+    "timestamp": "2026-10-02T14:53:42.166Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822164-6gsa",
+    "job_id": "JOB-2026-038",
+    "type": "discovered",
+    "title": "Job Discovered: Software Engineer - Full Stack (PF Scout) at Property Finder",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 80%.",
+    "timestamp": "2026-10-02T14:53:42.164Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822160-hlao",
+    "job_id": "JOB-2026-037",
+    "type": "discovered",
+    "title": "Job Discovered: Front End Developer - Level Shoes at Chalhoub Group",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 85%.",
+    "timestamp": "2026-10-02T14:53:42.160Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822152-9kaf",
+    "job_id": "JOB-2026-036",
+    "type": "discovered",
+    "title": "Job Discovered: Full-stack Developer (Senior Full Stack & AI Developer) at CBOX Containers",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 90%.",
+    "timestamp": "2026-10-02T14:53:42.152Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822146-kogy",
+    "job_id": "JOB-2026-035",
+    "type": "discovered",
+    "title": "Job Discovered: Web Developer (Contract) at BaseForce",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 35%.",
+    "timestamp": "2026-10-02T14:53:42.146Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822138-gvqc",
+    "job_id": "JOB-2026-034",
+    "type": "discovered",
+    "title": "Job Discovered: Web Developer at BrandConnect Media",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 50%.",
+    "timestamp": "2026-10-02T14:53:42.138Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822129-qtif",
+    "job_id": "JOB-2026-033",
+    "type": "discovered",
+    "title": "Job Discovered: .NET Full Stack Developer at Excellent Webworld",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 40%.",
+    "timestamp": "2026-10-02T14:53:42.130Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822122-6drm",
+    "job_id": "JOB-2026-032",
+    "type": "discovered",
+    "title": "Job Discovered: Full Stack Developer at Crescent Petroleum",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 45%.",
+    "timestamp": "2026-10-02T14:53:42.122Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822115-ua7i",
+    "job_id": "JOB-2026-031",
+    "type": "discovered",
+    "title": "Job Discovered: Senior Software Engineer (GenAI & Node.js) at GSSTech Group",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 55%.",
+    "timestamp": "2026-10-02T14:53:42.115Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822106-dwyw",
+    "job_id": "JOB-2026-030",
+    "type": "discovered",
+    "title": "Job Discovered: Full Stack Developer (Web & Mobile) at Gulf Overseas HR Consultancy",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 70%.",
+    "timestamp": "2026-10-02T14:53:42.106Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822097-n54q",
+    "job_id": "JOB-2026-029",
+    "type": "discovered",
+    "title": "Job Discovered: Senior Backend Developer at agapi",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 70%.",
+    "timestamp": "2026-10-02T14:53:42.097Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822088-2knt",
+    "job_id": "JOB-2026-028",
+    "type": "discovered",
+    "title": "Job Discovered: Frontend Engineer (UI/UX Systems) at Luna PR",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 80%.",
+    "timestamp": "2026-10-02T14:53:42.088Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822080-9pww",
+    "job_id": "JOB-2026-027",
+    "type": "discovered",
+    "title": "Job Discovered: Frontend Developer (React.js + Tailwind CSS) at Logos Technologies",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 75%.",
+    "timestamp": "2026-10-02T14:53:42.080Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822075-4app",
+    "job_id": "JOB-2026-026",
+    "type": "discovered",
+    "title": "Job Discovered: Front End Developer at INS Global (client unnamed)",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 82%.",
+    "timestamp": "2026-10-02T14:53:42.075Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822071-m40i",
+    "job_id": "JOB-2026-025",
+    "type": "discovered",
+    "title": "Job Discovered: CRM Developer at Al Marwan Group",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 88%.",
+    "timestamp": "2026-10-02T14:53:42.071Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822065-iz3r",
+    "job_id": "JOB-2026-024",
+    "type": "discovered",
+    "title": "Job Discovered: Full Stack Developer and Systems Manager at Apt Resources",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 88%.",
+    "timestamp": "2026-10-02T14:53:42.065Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822061-xdsl",
+    "job_id": "JOB-2026-023",
+    "type": "discovered",
+    "title": "Job Discovered: IT Software Engineer at Dream Com",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 55%.",
+    "timestamp": "2026-10-02T14:53:42.061Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822060-2g4f",
+    "job_id": "JOB-2026-022",
+    "type": "discovered",
+    "title": "Job Discovered: Tech Lead, Senior Backend Developer — TypeScript, Node.js at Utorg Labs",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 50%.",
+    "timestamp": "2026-10-02T14:53:42.060Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822058-ukev",
+    "job_id": "JOB-2026-021",
+    "type": "discovered",
+    "title": "Job Discovered: PHP Business-Logic Programmer at Virtua Advanced Solution",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 65%.",
+    "timestamp": "2026-10-02T14:53:42.058Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822051-i9c3",
+    "job_id": "JOB-2026-020",
+    "type": "discovered",
+    "title": "Job Discovered: Senior Front End Engineer at Stella Stays",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 60%.",
+    "timestamp": "2026-10-02T14:53:42.051Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822049-44ac",
+    "job_id": "JOB-2026-019",
+    "type": "discovered",
+    "title": "Job Discovered: Senior React Developer at The Address Properties LLC",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 72%.",
+    "timestamp": "2026-10-02T14:53:42.049Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822047-cv65",
+    "job_id": "JOB-2026-018",
+    "type": "discovered",
+    "title": "Job Discovered: Middle Next.js Developer at Ruby Labs",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 75%.",
+    "timestamp": "2026-10-02T14:53:42.047Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822042-207l",
+    "job_id": "JOB-2026-017",
+    "type": "discovered",
+    "title": "Job Discovered: Junior Frontend Engineer — Search at Property Finder",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 88%.",
+    "timestamp": "2026-10-02T14:53:42.042Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822041-ggj3",
+    "job_id": "JOB-2026-016",
+    "type": "discovered",
+    "title": "Job Discovered: Junior Full-Stack Engineer (Node.js | Next.js | NestJS | React) at Quantum Horizon Technology L.L.C",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 90%.",
+    "timestamp": "2026-10-02T14:53:42.041Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822039-76d2",
+    "job_id": "JOB-2026-015",
+    "type": "discovered",
+    "title": "Job Discovered: Senior Full Stack AI Engineer (Next.js + NestJS + AI Tools) at Qureos (real estate client)",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 55%.",
+    "timestamp": "2026-10-02T14:53:42.039Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822037-98gh",
+    "job_id": "JOB-2026-014",
+    "type": "discovered",
+    "title": "Job Discovered: Fullstack Python & React.js Developer (UAE) at CloudPSO",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 55%.",
+    "timestamp": "2026-10-02T14:53:42.037Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822035-l1eg",
+    "job_id": "JOB-2026-013",
+    "type": "discovered",
+    "title": "Job Discovered: ERPNext / Frappe Developer (React.js) at Emirates Properties",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 45%.",
+    "timestamp": "2026-10-02T14:53:42.035Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822034-2l9q",
+    "job_id": "JOB-2026-012",
+    "type": "discovered",
+    "title": "Job Discovered: Founding Full Stack Engineer at Novice.ai (ulex.ai)",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 50%.",
+    "timestamp": "2026-10-02T14:53:42.034Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822032-wnd8",
+    "job_id": "JOB-2026-011",
+    "type": "discovered",
+    "title": "Job Discovered: Senior Front-End Developer (Next.js / React) at Driven Properties",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 60%.",
+    "timestamp": "2026-10-02T14:53:42.032Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822029-ew1f",
+    "job_id": "JOB-2026-010",
+    "type": "discovered",
+    "title": "Job Discovered: ReactJS Developer at Virtusa",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 60%.",
+    "timestamp": "2026-10-02T14:53:42.029Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822028-36ta",
+    "job_id": "JOB-2026-009",
+    "type": "discovered",
+    "title": "Job Discovered: Full Stack Developer at Naffco",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 70%.",
+    "timestamp": "2026-10-02T14:53:42.028Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822025-zvsc",
+    "job_id": "JOB-2026-008",
+    "type": "discovered",
+    "title": "Job Discovered: Backend Developer at Nexus Blue Project Management",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 70%.",
+    "timestamp": "2026-10-02T14:53:42.025Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822023-hmfw",
+    "job_id": "JOB-2026-007",
+    "type": "discovered",
+    "title": "Job Discovered: Full Stack Developer (React.js / Next.js / Nest.js) at Mullers Solutions",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 65%.",
+    "timestamp": "2026-10-02T14:53:42.023Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822021-cda9",
+    "job_id": "JOB-2026-006",
+    "type": "discovered",
+    "title": "Job Discovered: Senior Node.js Backend Developer at agapi",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 70%.",
+    "timestamp": "2026-10-02T14:53:42.021Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822020-al3o",
+    "job_id": "JOB-2026-005",
+    "type": "discovered",
+    "title": "Job Discovered: Front-end Developer at AppliedAI (Opus platform)",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 75%.",
+    "timestamp": "2026-10-02T14:53:42.020Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822018-6kqk",
+    "job_id": "JOB-2026-004",
+    "type": "discovered",
+    "title": "Job Discovered: Backend Developer at GG Selection",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 80%.",
+    "timestamp": "2026-10-02T14:53:42.018Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822015-7v2i",
+    "job_id": "JOB-2026-003",
+    "type": "discovered",
+    "title": "Job Discovered: Full Stack Engineer (Core Systems & Automated Infrastructure) at Next Match AI LLC",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 85%.",
+    "timestamp": "2026-10-02T14:53:42.015Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822011-h5ea",
+    "job_id": "JOB-2026-002",
+    "type": "discovered",
+    "title": "Job Discovered: JavaScript Developer at joblet-ai",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 85%.",
+    "timestamp": "2026-10-02T14:53:42.011Z",
+    "user": "Automated Sync"
+  },
+  {
+    "id": "ACT-1790952822009-ezwb",
+    "job_id": "JOB-2026-001",
+    "type": "discovered",
+    "title": "Job Discovered: Node.js Developer at FallenAmbers",
+    "description": "Imported via Google Sheets (CSV URL: https://docs.google.com/spread...). Match Score: 85%.",
+    "timestamp": "2026-10-02T14:53:42.009Z",
+    "user": "Automated Sync"
+  }
+]

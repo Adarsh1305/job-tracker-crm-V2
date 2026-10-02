@@ -1,0 +1,18 @@
+/node_modules
+.env.example
+
+# env files
+.env*
+
+# vercel
+.vercel
+
+.env.local
+job-tracker-*.json
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
