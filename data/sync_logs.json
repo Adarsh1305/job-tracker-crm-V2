@@ -1,16 +1,16 @@
 [
   {
-    "id": "SYNC-1790952822312",
-    "timestamp": "2026-10-02T14:53:42.312Z",
+    "id": "SYNC-1791014691872",
+    "timestamp": "2026-10-03T08:04:51.872Z",
     "type": "google_sheets",
     "sourceName": "Google Sheets (CSV URL: https://docs.google.com/spread...)",
-    "total_rows": 83,
-    "new_count": 83,
+    "total_rows": 85,
+    "new_count": 85,
     "updated_count": 0,
     "duplicate_count": 0,
     "error_count": 0,
     "status": "success",
-    "message": "Processed 83 rows: 83 new, 0 updated, 0 duplicates skipped, 0 failed. Database total: 83.",
+    "message": "Processed 85 rows: 85 new, 0 updated, 0 duplicates skipped, 0 failed. Database total: 85.",
     "details": [
       {
         "jobId": "JOB-2026-001",
@@ -509,8 +509,20 @@
         "action": "created",
         "title": "Software Engineer, .NET",
         "company": "Advanced Digital Gaming Technology (ADGT)"
+      },
+      {
+        "jobId": "JOB-2026-1003-01",
+        "action": "created",
+        "title": "Full Stack Developer",
+        "company": "Furchild Food Stuff Supply LLC"
+      },
+      {
+        "jobId": "JOB-2026-1003-02",
+        "action": "created",
+        "title": "Software Engineer (Full Stack)",
+        "company": "Global Corporation (client: Callsign)"
       }
     ],
-    "created_at": "2026-10-02T14:53:42.312Z"
+    "created_at": "2026-10-03T08:04:51.872Z"
   }
 ]

@@ -53,18 +53,114 @@ function readJsonFile(filePath, defaultValue = []) {
 
 // Default Application Stages
 const DEFAULT_STAGES = [
-  { id: 'new', name: 'New', order: 1, color: '#3b82f6', badge: 'bg-blue-500/10 text-blue-500 border-blue-500/20', description: 'Newly discovered or uncontacted job opportunity', is_default: true },
-  { id: 'interested', name: 'Interested', order: 2, color: '#6366f1', badge: 'bg-indigo-500/10 text-indigo-500 border-indigo-500/20', description: 'Bookmarked for targeted custom application', is_default: true },
-  { id: 'preparing', name: 'Preparing Application', order: 3, color: '#8b5cf6', badge: 'bg-purple-500/10 text-purple-500 border-purple-500/20', description: 'Tailoring CV and cover letter for submission', is_default: true },
-  { id: 'applied', name: 'Applied', order: 4, color: '#06b6d4', badge: 'bg-cyan-500/10 text-cyan-500 border-cyan-500/20', description: 'Application officially submitted via portal/email', is_default: true },
-  { id: 'screening', name: 'Screening', order: 5, color: '#eab308', badge: 'bg-yellow-500/10 text-yellow-500 border-yellow-500/20', description: 'Recruiter phone or video preliminary check', is_default: true },
-  { id: 'interview', name: 'Interview', order: 6, color: '#f59e0b', badge: 'bg-amber-500/10 text-amber-500 border-amber-500/20', description: 'Hiring manager or team round scheduled', is_default: true },
-  { id: 'tech_interview', name: 'Technical Interview', order: 7, color: '#f97316', badge: 'bg-orange-500/10 text-orange-500 border-orange-500/20', description: 'Coding challenge, architecture, or tech evaluation', is_default: true },
-  { id: 'hr_interview', name: 'HR Interview', order: 8, color: '#ec4899', badge: 'bg-pink-500/10 text-pink-500 border-pink-500/20', description: 'Culture fit, visa, salary & benefits discussion', is_default: true },
-  { id: 'offer', name: 'Offer', order: 9, color: '#10b981', badge: 'bg-emerald-500/10 text-emerald-500 border-emerald-500/20', description: 'Formal offer received or undergoing negotiation', is_default: true },
-  { id: 'rejected', name: 'Rejected', order: 10, color: '#ef4444', badge: 'bg-red-500/10 text-red-500 border-red-500/20', description: 'Not selected for this role; feedback noted', is_default: true },
-  { id: 'closed_expired', name: 'Closed / Expired', order: 11, color: '#64748b', badge: 'bg-slate-500/10 text-slate-500 border-slate-500/20', description: 'Listing closed or expired on the portal', is_default: true },
-  { id: 'not_pursuing', name: 'Not Pursuing', order: 12, color: '#71717a', badge: 'bg-zinc-500/10 text-zinc-500 border-zinc-500/20', description: 'Withdrawn or deemed not a fit', is_default: true },
+  {
+    id: 'new',
+    name: 'New',
+    order: 1,
+    color: '#3b82f6',
+    badge: 'bg-blue-500/10 text-blue-500 border-blue-500/20',
+    description: 'Newly discovered or uncontacted job opportunity',
+    is_default: true,
+  },
+  {
+    id: 'interested',
+    name: 'Interested',
+    order: 2,
+    color: '#6366f1',
+    badge: 'bg-indigo-500/10 text-indigo-500 border-indigo-500/20',
+    description: 'Bookmarked for targeted custom application',
+    is_default: true,
+  },
+  {
+    id: 'preparing',
+    name: 'Preparing Application',
+    order: 3,
+    color: '#8b5cf6',
+    badge: 'bg-purple-500/10 text-purple-500 border-purple-500/20',
+    description: 'Tailoring CV and cover letter for submission',
+    is_default: true,
+  },
+  {
+    id: 'applied',
+    name: 'Applied',
+    order: 4,
+    color: '#06b6d4',
+    badge: 'bg-cyan-500/10 text-cyan-500 border-cyan-500/20',
+    description: 'Application officially submitted via portal/email',
+    is_default: true,
+  },
+  {
+    id: 'screening',
+    name: 'Screening',
+    order: 5,
+    color: '#eab308',
+    badge: 'bg-yellow-500/10 text-yellow-500 border-yellow-500/20',
+    description: 'Recruiter phone or video preliminary check',
+    is_default: true,
+  },
+  {
+    id: 'interview',
+    name: 'Interview',
+    order: 6,
+    color: '#f59e0b',
+    badge: 'bg-amber-500/10 text-amber-500 border-amber-500/20',
+    description: 'Hiring manager or team round scheduled',
+    is_default: true,
+  },
+  {
+    id: 'tech_interview',
+    name: 'Technical Interview',
+    order: 7,
+    color: '#f97316',
+    badge: 'bg-orange-500/10 text-orange-500 border-orange-500/20',
+    description: 'Coding challenge, architecture, or tech evaluation',
+    is_default: true,
+  },
+  {
+    id: 'hr_interview',
+    name: 'HR Interview',
+    order: 8,
+    color: '#ec4899',
+    badge: 'bg-pink-500/10 text-pink-500 border-pink-500/20',
+    description: 'Culture fit, visa, salary & benefits discussion',
+    is_default: true,
+  },
+  {
+    id: 'offer',
+    name: 'Offer',
+    order: 9,
+    color: '#10b981',
+    badge: 'bg-emerald-500/10 text-emerald-500 border-emerald-500/20',
+    description: 'Formal offer received or undergoing negotiation',
+    is_default: true,
+  },
+  {
+    id: 'rejected',
+    name: 'Rejected',
+    order: 10,
+    color: '#ef4444',
+    badge: 'bg-red-500/10 text-red-500 border-red-500/20',
+    description: 'Not selected for this role; feedback noted',
+    is_default: true,
+  },
+  {
+    id: 'closed_expired',
+    name: 'Closed / Expired',
+    order: 11,
+    color: '#64748b',
+    badge: 'bg-slate-500/10 text-slate-500 border-slate-500/20',
+    description: 'Listing closed or expired on the portal',
+    is_default: true,
+  },
+  {
+    id: 'not_pursuing',
+    name: 'Not Pursuing',
+    order: 12,
+    color: '#71717a',
+    badge: 'bg-zinc-500/10 text-zinc-500 border-zinc-500/20',
+    description: 'Withdrawn or deemed not a fit',
+    is_default: true,
+  },
 ];
 
 // Profile for Adarsh Vinothan
@@ -75,7 +171,13 @@ const DEFAULT_PROFILE = {
   phone: '+971-565693968',
   location: 'Dubai, UAE',
   visaStatus: 'Visit Visa',
-  targetRoles: ['Full-Stack Developer', 'Frontend Developer', 'Node.js Developer', 'Next.js Developer', 'Web Developer & IT Support'],
+  targetRoles: [
+    'Full-Stack Developer',
+    'Frontend Developer',
+    'Node.js Developer',
+    'Next.js Developer',
+    'Web Developer & IT Support',
+  ],
   targetLocations: ['Dubai, UAE', 'Abu Dhabi, UAE', 'Sharjah, UAE'],
   preferredWorkModes: ['On-site', 'Hybrid'],
   minSalaryAED: 8000,
@@ -86,14 +188,37 @@ const DEFAULT_PROFILE = {
   profile_photo_url: '',
   bio: 'Results-driven Full-Stack Web Developer with 3+ years of experience designing responsive, high-performance user interfaces and building scalable backend services and APIs. Skilled in React.js, Next.js, Node.js, Laravel, REST APIs, MongoDB, MySQL, and Bitrix24 CRM integrations.',
   skills: [
-    'React.js', 'Next.js', 'Node.js', 'TypeScript', 'JavaScript (ES6+)',
-    'Tailwind CSS', 'REST APIs', 'Laravel/PHP', 'MongoDB', 'MySQL',
-    'Microservices', 'Webhooks', 'Bitrix24 CRM', 'cPanel', 'DNS',
-    'Hosting & Deployment', 'Vercel', 'Git/GitHub', 'SEO & Performance'
+    'React.js',
+    'Next.js',
+    'Node.js',
+    'TypeScript',
+    'JavaScript (ES6+)',
+    'Tailwind CSS',
+    'REST APIs',
+    'Laravel/PHP',
+    'MongoDB',
+    'MySQL',
+    'Microservices',
+    'Webhooks',
+    'Bitrix24 CRM',
+    'cPanel',
+    'DNS',
+    'Hosting & Deployment',
+    'Vercel',
+    'Git/GitHub',
+    'SEO & Performance',
   ],
   education: [
-    { degree: 'Master of Computer Applications (MCA)', institution: 'Sree Saraswathi Thyagaraja College, India', period: '2020–2022' },
-    { degree: 'Bachelor of Computer Applications (BCA)', institution: 'Sree Saraswathi Thyagaraja College, India', period: '2017–2020' }
+    {
+      degree: 'Master of Computer Applications (MCA)',
+      institution: 'Sree Saraswathi Thyagaraja College, India',
+      period: '2020–2022',
+    },
+    {
+      degree: 'Bachelor of Computer Applications (BCA)',
+      institution: 'Sree Saraswathi Thyagaraja College, India',
+      period: '2017–2020',
+    },
   ],
   workExperience: [
     {
@@ -105,8 +230,8 @@ const DEFAULT_PROFILE = {
         'Built responsive, SEO-optimized user interfaces and backend services using Next.js (CSR/SSR) and Node.js.',
         'Integrated external APIs and XML property feeds for real-time listing updates across portals.',
         'Automated Bitrix24 CRM workflows and webhook-based data sync, streamlining sales operations.',
-        'Managed cPanel, DNS, hosting, and deployment; supervised property portal integrations and listing quality.'
-      ]
+        'Managed cPanel, DNS, hosting, and deployment; supervised property portal integrations and listing quality.',
+      ],
     },
     {
       role: 'Web Developer',
@@ -117,11 +242,12 @@ const DEFAULT_PROFILE = {
         'Built secure REST APIs and SSR applications with Next.js, achieving 30% performance improvement.',
         'Developed scalable Node.js backend services, reducing server response time by 40%.',
         'Architected microservices for Authorization, Metrics, and Notifications.',
-        'Awarded Best Employee Award (Aug 2023 & Jun 2024).'
-      ]
-    }
+        'Awarded Best Employee Award (Aug 2023 & Jun 2024).',
+      ],
+    },
   ],
-  resumeLink: 'https://drive.google.com/file/d/1yNwNHmUH0xLmMiAPsDWtqNamwHrknanv/view'
+  resumeLink:
+    'https://drive.google.com/file/d/1yNwNHmUH0xLmMiAPsDWtqNamwHrknanv/view',
 };
 
 const DEFAULT_INTEGRATION = {
@@ -169,8 +295,15 @@ function mapStatusToStage(status) {
   if (s.includes('screening')) return 'screening';
   if (s.includes('offer')) return 'offer';
   if (s.includes('rejected')) return 'rejected';
-  if (s.includes('closed') || s.includes('expired') || s.includes('invalid') || s.includes('dead')) return 'closed_expired';
-  if (s.includes('blocked') || s.includes('not pursuing')) return 'not_pursuing';
+  if (
+    s.includes('closed') ||
+    s.includes('expired') ||
+    s.includes('invalid') ||
+    s.includes('dead')
+  )
+    return 'closed_expired';
+  if (s.includes('blocked') || s.includes('not pursuing'))
+    return 'not_pursuing';
   if (s.includes('new')) return 'new';
   return 'new';
 }
@@ -218,7 +351,10 @@ function initializeDatabase() {
   let syncLogs = readJsonFile(DB_FILES.sync_logs, null);
 
   if (!jobs || jobs.length === 0) {
-    const excelPath = path.join(DATA_DIR, 'Updated_Job_Tracker_2026-09-25.xlsx');
+    const excelPath = path.join(
+      DATA_DIR,
+      'Updated_Job_Tracker_2026-09-25.xlsx',
+    );
     jobs = [];
     applications = [];
     activityLogs = [];
@@ -231,7 +367,9 @@ function initializeDatabase() {
         const rows = xlsx.utils.sheet_to_json(sheet, { defval: '' });
 
         rows.forEach((row, index) => {
-          const jobId = String(row['Job ID'] || `JOB-2026-${String(index + 1).padStart(3, '0')}`).trim();
+          const jobId = String(
+            row['Job ID'] || `JOB-2026-${String(index + 1).padStart(3, '0')}`,
+          ).trim();
           const matchScore = normalizeMatchScore(row['Match Score']);
           const rawStatus = String(row['Application Status'] || 'New').trim();
           const stage = mapStatusToStage(rawStatus);
@@ -250,7 +388,8 @@ function initializeDatabase() {
             experience_required: row['Experience Required'] || '',
             key_skills: row['Key Technologies / Skills'] || '',
             salary: row['Salary'] || 'Not specified',
-            match_classification: row['Match Classification'] || '🟢 Good Match',
+            match_classification:
+              row['Match Classification'] || '🟢 Good Match',
             match_score: matchScore,
             match_reason: row['Match Reason'] || '',
             matching_skills: row['Matching Skills'] || '',
@@ -272,7 +411,9 @@ function initializeDatabase() {
             stage: stage,
             status_detail: rawStatus,
             priority: priority,
-            applied_date: row['Application Date'] || (stage === 'applied' ? '2026-09-23' : ''),
+            applied_date:
+              row['Application Date'] ||
+              (stage === 'applied' ? '2026-09-23' : ''),
             application_confirmation: row['Application Confirmation'] || '',
             follow_up_date: row['Follow-up Date'] || '',
             follow_up_type: 'email',
@@ -283,9 +424,14 @@ function initializeDatabase() {
             recruiter_phone: '',
             notes: row['Notes'] || '',
             personal_rating: matchScore >= 85 ? 5 : matchScore >= 70 ? 4 : 3,
-            resume_status: row['Resume Created'] ? (row['Resume Created'].startsWith('Yes') ? 'Ready' : 'Not Started') : 'Not Started',
+            resume_status: row['Resume Created']
+              ? row['Resume Created'].startsWith('Yes')
+                ? 'Ready'
+                : 'Not Started'
+              : 'Not Started',
             cover_letter_status: row['Cover Letter Created'] || 'Not required',
-            cover_letter_required: row['Cover Letter Required'] || 'Not specified',
+            cover_letter_required:
+              row['Cover Letter Required'] || 'Not specified',
             resume_version: row['Resume Version'] || '',
             resume_file_link: row['Resume File Link'] || '',
             resume_quality_check: row['Resume Quality Check'] || '',
@@ -305,8 +451,10 @@ function initializeDatabase() {
             type: 'discovered',
             title: `Job Discovered: ${job.title} at ${job.company}`,
             description: `Imported via reference tracker. Match Score: ${matchScore}%. Initial Status: ${rawStatus}.`,
-            timestamp: row['Alert Date'] ? `${row['Alert Date']}T${row['Alert Time (UAE)'] || '12:00'}:00Z` : nowIso,
-            user: 'System Import'
+            timestamp: row['Alert Date']
+              ? `${row['Alert Date']}T${row['Alert Time (UAE)'] || '12:00'}:00Z`
+              : nowIso,
+            user: 'System Import',
           });
         });
 
@@ -323,7 +471,7 @@ function initializeDatabase() {
           error_count: 0,
           status: 'success',
           message: `Successfully initialized database with ${rows.length} jobs from reference Excel tracker.`,
-          created_at: new Date().toISOString()
+          created_at: new Date().toISOString(),
         });
       } catch (err) {
         console.error('Error importing reference Excel on bootstrap:', err);
@@ -361,8 +509,10 @@ const db = {
       user_profile: null,
     };
     if (fs.existsSync(DB_FILES.jobs)) fs.unlinkSync(DB_FILES.jobs);
-    if (fs.existsSync(DB_FILES.applications)) fs.unlinkSync(DB_FILES.applications);
-    if (fs.existsSync(DB_FILES.activity_logs)) fs.unlinkSync(DB_FILES.activity_logs);
+    if (fs.existsSync(DB_FILES.applications))
+      fs.unlinkSync(DB_FILES.applications);
+    if (fs.existsSync(DB_FILES.activity_logs))
+      fs.unlinkSync(DB_FILES.activity_logs);
     if (fs.existsSync(DB_FILES.sync_logs)) fs.unlinkSync(DB_FILES.sync_logs);
     initializeDatabase();
     return { success: true, count: cache.jobs.length };
@@ -375,7 +525,8 @@ const db = {
   },
 
   getApplications: () => {
-    if (!cache.applications) cache.applications = readJsonFile(DB_FILES.applications, []);
+    if (!cache.applications)
+      cache.applications = readJsonFile(DB_FILES.applications, []);
     return cache.applications;
   },
 
@@ -383,9 +534,14 @@ const db = {
     const jobs = db.getJobs();
     const apps = db.getApplications();
     const cleanId = String(id).trim().toUpperCase();
-    const job = jobs.find(j => j.id.toUpperCase() === cleanId || j.job_id.toUpperCase() === cleanId);
+    const job = jobs.find(
+      (j) =>
+        j.id.toUpperCase() === cleanId || j.job_id.toUpperCase() === cleanId,
+    );
     if (!job) return null;
-    const application = apps.find(a => a.job_id.toUpperCase() === cleanId) || {
+    const application = apps.find(
+      (a) => a.job_id.toUpperCase() === cleanId,
+    ) || {
       job_id: job.id,
       stage: 'new',
       status_detail: 'New',
@@ -393,7 +549,10 @@ const db = {
       notes: '',
     };
     const stages = db.getStages();
-    const stageObj = stages.find(s => s.id === application.stage) || { id: application.stage, name: application.stage };
+    const stageObj = stages.find((s) => s.id === application.stage) || {
+      id: application.stage,
+      name: application.stage,
+    };
     return {
       ...job,
       application,
@@ -413,10 +572,12 @@ const db = {
     const jobs = db.getJobs();
     const apps = db.getApplications();
     const stages = db.getStages();
-    const stageMap = Object.fromEntries(stages.map(s => [s.id, s]));
-    const appMap = Object.fromEntries(apps.map(a => [a.job_id.toUpperCase(), a]));
+    const stageMap = Object.fromEntries(stages.map((s) => [s.id, s]));
+    const appMap = Object.fromEntries(
+      apps.map((a) => [a.job_id.toUpperCase(), a]),
+    );
 
-    let result = jobs.map(job => {
+    let result = jobs.map((job) => {
       const app = appMap[job.id.toUpperCase()] || {
         job_id: job.id,
         stage: 'new',
@@ -424,7 +585,11 @@ const db = {
         priority: 'medium',
         notes: '',
       };
-      const stageInfo = stageMap[app.stage] || { id: app.stage, name: app.stage, color: '#94a3b8' };
+      const stageInfo = stageMap[app.stage] || {
+        id: app.stage,
+        name: app.stage,
+        color: '#94a3b8',
+      };
       return {
         ...job,
         application: app,
@@ -442,43 +607,50 @@ const db = {
     // Filtering
     if (filters.search) {
       const q = filters.search.toLowerCase().trim();
-      result = result.filter(item =>
-        item.title.toLowerCase().includes(q) ||
-        item.company.toLowerCase().includes(q) ||
-        item.location.toLowerCase().includes(q) ||
-        item.key_skills.toLowerCase().includes(q) ||
-        item.id.toLowerCase().includes(q) ||
-        item.source.toLowerCase().includes(q) ||
-        (item.notes && item.notes.toLowerCase().includes(q))
+      result = result.filter(
+        (item) =>
+          item.title.toLowerCase().includes(q) ||
+          item.company.toLowerCase().includes(q) ||
+          item.location.toLowerCase().includes(q) ||
+          item.key_skills.toLowerCase().includes(q) ||
+          item.id.toLowerCase().includes(q) ||
+          item.source.toLowerCase().includes(q) ||
+          (item.notes && item.notes.toLowerCase().includes(q)),
       );
     }
 
     if (filters.stage && filters.stage !== 'all') {
-      result = result.filter(item => item.stage === filters.stage);
+      result = result.filter((item) => item.stage === filters.stage);
     }
 
     if (filters.priority && filters.priority !== 'all') {
-      result = result.filter(item => item.priority === filters.priority);
+      result = result.filter((item) => item.priority === filters.priority);
     }
 
     if (filters.classification && filters.classification !== 'all') {
-      result = result.filter(item => item.match_classification.includes(filters.classification));
+      result = result.filter((item) =>
+        item.match_classification.includes(filters.classification),
+      );
     }
 
     if (filters.workMode && filters.workMode !== 'all') {
       const wm = filters.workMode.toLowerCase();
-      result = result.filter(item => item.work_mode.toLowerCase().includes(wm));
+      result = result.filter((item) =>
+        item.work_mode.toLowerCase().includes(wm),
+      );
     }
 
     if (filters.minScore) {
       const min = parseInt(filters.minScore, 10);
       if (!isNaN(min)) {
-        result = result.filter(item => item.match_score >= min);
+        result = result.filter((item) => item.match_score >= min);
       }
     }
 
     if (filters.source && filters.source !== 'all') {
-      result = result.filter(item => item.source.toLowerCase().includes(filters.source.toLowerCase()));
+      result = result.filter((item) =>
+        item.source.toLowerCase().includes(filters.source.toLowerCase()),
+      );
     }
 
     // Sorting
@@ -492,20 +664,36 @@ const db = {
       if (sortBy === 'id' || sortBy === 'job_id') {
         const strA = String(a.id || a.job_id || '');
         const strB = String(b.id || b.job_id || '');
-        return strA.localeCompare(strB, undefined, { numeric: true, sensitivity: 'base' }) * sortDir;
+        return (
+          strA.localeCompare(strB, undefined, {
+            numeric: true,
+            sensitivity: 'base',
+          }) * sortDir
+        );
       }
       if (sortBy === 'match_score') {
         return ((a.match_score || 0) - (b.match_score || 0)) * sortDir;
       }
       if (sortBy === 'priority') {
         const pOrder = { high: 3, medium: 2, low: 1 };
-        return ((pOrder[a.priority] || 0) - (pOrder[b.priority] || 0)) * sortDir;
+        return (
+          ((pOrder[a.priority] || 0) - (pOrder[b.priority] || 0)) * sortDir
+        );
       }
-      if (sortBy === 'date_added' || sortBy === 'posted_date' || sortBy === 'created_at') {
+      if (
+        sortBy === 'date_added' ||
+        sortBy === 'posted_date' ||
+        sortBy === 'created_at'
+      ) {
         return (new Date(valA || 0) - new Date(valB || 0)) * sortDir;
       }
       if (typeof valA === 'string') {
-        return valA.localeCompare(valB || '', undefined, { numeric: true, sensitivity: 'base' }) * sortDir;
+        return (
+          valA.localeCompare(valB || '', undefined, {
+            numeric: true,
+            sensitivity: 'base',
+          }) * sortDir
+        );
       }
       return ((valA || 0) - (valB || 0)) * sortDir;
     });
@@ -515,7 +703,9 @@ const db = {
 
   saveJob: (jobData) => {
     const jobs = db.getJobs();
-    const index = jobs.findIndex(j => j.id.toUpperCase() === jobData.id.toUpperCase());
+    const index = jobs.findIndex(
+      (j) => j.id.toUpperCase() === jobData.id.toUpperCase(),
+    );
     const nowIso = new Date().toISOString();
 
     if (index >= 0) {
@@ -528,26 +718,146 @@ const db = {
     return jobData;
   },
 
+  // deleteJob: (jobId) => {
+  //   let jobs = db.getJobs();
+  //   let apps = db.getApplications();
+  //   const logs = db.getActivityLogs();
+
+  //   const cleanId = String(jobId).trim().toUpperCase();
+
+  //   const jobExists = jobs.some(
+  //     (j) =>
+  //       String(j.id || '')
+  //         .trim()
+  //         .toUpperCase() === cleanId,
+  //   );
+
+  //   if (!jobExists) {
+  //     return {
+  //       success: false,
+  //       deleted: false,
+  //       jobId,
+  //       error: 'Job not found',
+  //     };
+  //   }
+
+  //   const updatedJobs = jobs.filter(
+  //     (j) =>
+  //       String(j.id || '')
+  //         .trim()
+  //         .toUpperCase() !== cleanId,
+  //   );
+
+  //   const updatedApps = apps.filter(
+  //     (a) =>
+  //       String(a.job_id || '')
+  //         .trim()
+  //         .toUpperCase() !== cleanId,
+  //   );
+
+  //   const updatedLogs = logs.filter(
+  //     (l) =>
+  //       String(l.job_id || '')
+  //         .trim()
+  //         .toUpperCase() !== cleanId,
+  //   );
+
+  //   // jobs = jobs.filter((j) => j.id.toUpperCase() !== cleanId);
+  //   // apps = apps.filter((a) => a.job_id.toUpperCase() !== cleanId);
+
+  //   // writeJsonAtomic(DB_FILES.jobs, jobs);
+  //   // writeJsonAtomic(DB_FILES.applications, apps);
+
+  //   writeJsonAtomic(DB_FILES.jobs, updatedJobs);
+  //   writeJsonAtomic(DB_FILES.applications, updatedApps);
+  //   writeJsonAtomic(DB_FILES.activity_logs, updatedLogs);
+
+  //   cache.jobs = updatedJobs;
+  //   cache.applications = updatedApps;
+  //   cache.activity_logs = updatedLogs;
+
+  //   return {
+  //     success: true,
+  //     deleted: true,
+  //     jobId,
+  //   };
+  // },
+
   deleteJob: (jobId) => {
-    let jobs = db.getJobs();
-    let apps = db.getApplications();
-    const cleanId = String(jobId).trim().toUpperCase();
+    try {
+      const cleanId = String(jobId || '')
+        .trim()
+        .toUpperCase();
 
-    jobs = jobs.filter(j => j.id.toUpperCase() !== cleanId);
-    apps = apps.filter(a => a.job_id.toUpperCase() !== cleanId);
+      if (!cleanId) {
+        return {
+          success: false,
+          deleted: false,
+          error: 'Job ID is required',
+        };
+      }
 
-    writeJsonAtomic(DB_FILES.jobs, jobs);
-    writeJsonAtomic(DB_FILES.applications, apps);
-    cache.jobs = jobs;
-    cache.applications = apps;
-    return { success: true };
+      let jobs = db.getJobs();
+      let apps = db.getApplications();
+
+      const existingJob = jobs.find(
+        (job) =>
+          String(job.id || '')
+            .trim()
+            .toUpperCase() === cleanId,
+      );
+
+      if (!existingJob) {
+        return {
+          success: false,
+          deleted: false,
+          error: `Job ${cleanId} not found`,
+        };
+      }
+
+      // Delete job
+      jobs = jobs.filter(
+        (job) =>
+          String(job.id || '')
+            .trim()
+            .toUpperCase() !== cleanId,
+      );
+
+      // Delete related application records
+      apps = apps.filter(
+        (app) =>
+          String(app.job_id || '')
+            .trim()
+            .toUpperCase() !== cleanId,
+      );
+
+      writeJsonAtomic(DB_FILES.jobs, jobs);
+      writeJsonAtomic(DB_FILES.applications, apps);
+
+      cache.jobs = jobs;
+      cache.applications = apps;
+
+      return {
+        success: true,
+        deleted: true,
+        jobId: cleanId,
+      };
+    } catch (error) {
+      console.error('deleteJob error:', error);
+
+      return {
+        success: false,
+        deleted: false,
+        error: error.message,
+      };
+    }
   },
 
   // 2. APPLICATIONS (Personal Data)
   saveApplication: (appData, logActivity = true) => {
     const apps = db.getApplications();
     const cleanId = String(appData.job_id).trim().toUpperCase();
-    const index = apps.findIndex(a => a.job_id.toUpperCase() === cleanId);
+    const index = apps.findIndex((a) => a.job_id.toUpperCase() === cleanId);
     const nowIso = new Date().toISOString();
     let oldStage = null;
 
@@ -564,16 +874,23 @@ const db = {
     writeJsonAtomic(DB_FILES.applications, apps);
     cache.applications = apps;
 
-    if (logActivity && appData.stage && oldStage && oldStage !== appData.stage) {
+    if (
+      logActivity &&
+      appData.stage &&
+      oldStage &&
+      oldStage !== appData.stage
+    ) {
       const stages = db.getStages();
-      const oldStageName = stages.find(s => s.id === oldStage)?.name || oldStage;
-      const newStageName = stages.find(s => s.id === appData.stage)?.name || appData.stage;
+      const oldStageName =
+        stages.find((s) => s.id === oldStage)?.name || oldStage;
+      const newStageName =
+        stages.find((s) => s.id === appData.stage)?.name || appData.stage;
       db.addActivityLog({
         job_id: appData.job_id,
         type: 'stage_change',
         title: `Stage changed: ${oldStageName} → ${newStageName}`,
         description: `Application moved to ${newStageName}.`,
-        user: 'Adarsh Vinothan'
+        user: 'Adarsh Vinothan',
       });
     }
 
@@ -583,9 +900,9 @@ const db = {
   updateJobStage: (jobId, newStage, note = '') => {
     const apps = db.getApplications();
     const cleanId = String(jobId).trim().toUpperCase();
-    let app = apps.find(a => a.job_id.toUpperCase() === cleanId);
+    let app = apps.find((a) => a.job_id.toUpperCase() === cleanId);
     const stages = db.getStages();
-    const targetStage = stages.find(s => s.id === newStage);
+    const targetStage = stages.find((s) => s.id === newStage);
 
     if (!app) {
       app = {
@@ -609,14 +926,15 @@ const db = {
     const saved = db.saveApplication(app, false);
 
     // Record activity
-    const oldStageName = stages.find(s => s.id === oldStage)?.name || oldStage;
+    const oldStageName =
+      stages.find((s) => s.id === oldStage)?.name || oldStage;
     const newStageName = targetStage?.name || newStage;
     db.addActivityLog({
       job_id: jobId,
       type: 'stage_change',
       title: `Stage changed: ${oldStageName} → ${newStageName}`,
       description: note || `Application stage updated to ${newStageName}.`,
-      user: 'Adarsh Vinothan'
+      user: 'Adarsh Vinothan',
     });
 
     return saved;
@@ -627,15 +945,28 @@ const db = {
     if (!cache.stages) {
       let stages = readJsonFile(DB_FILES.stages, DEFAULT_STAGES);
       const defaultIds = [
-        'new', 'interested', 'preparing', 'applied', 'screening',
-        'interview', 'tech_interview', 'hr_interview', 'offer',
-        'rejected', 'closed_expired', 'not_pursuing'
+        'new',
+        'interested',
+        'preparing',
+        'applied',
+        'screening',
+        'interview',
+        'tech_interview',
+        'hr_interview',
+        'offer',
+        'rejected',
+        'closed_expired',
+        'not_pursuing',
       ];
       stages = stages.map((s, idx) => ({
         ...s,
         order: typeof s.order === 'number' ? s.order : idx + 1,
-        is_default: s.is_default !== undefined ? s.is_default : defaultIds.includes(s.id),
-        description: s.description || (DEFAULT_STAGES.find(ds => ds.id === s.id)?.description || ''),
+        is_default:
+          s.is_default !== undefined ? s.is_default : defaultIds.includes(s.id),
+        description:
+          s.description ||
+          DEFAULT_STAGES.find((ds) => ds.id === s.id)?.description ||
+          '',
       }));
       stages.sort((a, b) => (a.order || 0) - (b.order || 0));
       cache.stages = stages;
@@ -659,9 +990,13 @@ const db = {
     const stages = db.getStages();
     let id = stageData.id ? String(stageData.id).trim().toLowerCase() : '';
     if (!id) {
-      id = stageData.name.toLowerCase().trim().replace(/[^a-z0-9]+/g, '_').replace(/^_+|_+$/g, '');
+      id = stageData.name
+        .toLowerCase()
+        .trim()
+        .replace(/[^a-z0-9]+/g, '_')
+        .replace(/^_+|_+$/g, '');
     }
-    if (stages.some(s => s.id === id)) {
+    if (stages.some((s) => s.id === id)) {
       id = `${id}_${Date.now().toString().slice(-4)}`;
     }
     const nowIso = new Date().toISOString();
@@ -670,7 +1005,9 @@ const db = {
       name: stageData.name.trim(),
       description: stageData.description?.trim() || '',
       color: stageData.color || '#6366f1',
-      badge: stageData.badge || 'bg-indigo-500/10 text-indigo-500 border-indigo-500/20',
+      badge:
+        stageData.badge ||
+        'bg-indigo-500/10 text-indigo-500 border-indigo-500/20',
       order: stages.length + 1,
       is_default: false,
       created_at: nowIso,
@@ -683,7 +1020,7 @@ const db = {
 
   updateStage: (stageId, stageData) => {
     const stages = db.getStages();
-    const idx = stages.findIndex(s => s.id === stageId);
+    const idx = stages.findIndex((s) => s.id === stageId);
     if (idx === -1) {
       throw new Error(`Stage "${stageId}" not found.`);
     }
@@ -701,7 +1038,7 @@ const db = {
   getStageJobCounts: () => {
     const apps = db.getApplications();
     const counts = {};
-    apps.forEach(a => {
+    apps.forEach((a) => {
       const stg = a.stage || 'new';
       counts[stg] = (counts[stg] || 0) + 1;
     });
@@ -710,7 +1047,7 @@ const db = {
 
   deleteStage: (stageId, migrateToStageId = null) => {
     const stages = db.getStages();
-    const target = stages.find(s => s.id === stageId);
+    const target = stages.find((s) => s.id === stageId);
     if (!target) {
       throw new Error(`Stage "${stageId}" not found.`);
     }
@@ -719,35 +1056,48 @@ const db = {
     }
 
     const apps = db.getApplications();
-    const affectedApps = apps.filter(a => a.stage === stageId);
+    const affectedApps = apps.filter((a) => a.stage === stageId);
 
     if (affectedApps.length > 0) {
       if (!migrateToStageId) {
-        throw new Error(`This stage is currently used by ${affectedApps.length} job(s). Please choose a destination stage before removing it.`);
+        throw new Error(
+          `This stage is currently used by ${affectedApps.length} job(s). Please choose a destination stage before removing it.`,
+        );
       }
-      const destStage = stages.find(s => s.id === migrateToStageId);
+      const destStage = stages.find((s) => s.id === migrateToStageId);
       if (!destStage) {
-        throw new Error(`Migration destination stage "${migrateToStageId}" is invalid.`);
+        throw new Error(
+          `Migration destination stage "${migrateToStageId}" is invalid.`,
+        );
       }
 
       // Migrate applications
-      affectedApps.forEach(a => {
-        db.updateJobStage(a.job_id, migrateToStageId, `Migrated from deleted custom stage "${target.name}" to "${destStage.name}".`);
+      affectedApps.forEach((a) => {
+        db.updateJobStage(
+          a.job_id,
+          migrateToStageId,
+          `Migrated from deleted custom stage "${target.name}" to "${destStage.name}".`,
+        );
       });
     }
 
-    const remainingStages = stages.filter(s => s.id !== stageId);
+    const remainingStages = stages.filter((s) => s.id !== stageId);
     db.saveStages(remainingStages);
-    return { success: true, migratedCount: affectedApps.length, deletedStage: target };
+    return {
+      success: true,
+      migratedCount: affectedApps.length,
+      deletedStage: target,
+    };
   },
 
   // 4. ACTIVITY LOGS
   getActivityLogs: (jobId = null) => {
-    if (!cache.activity_logs) cache.activity_logs = readJsonFile(DB_FILES.activity_logs, []);
+    if (!cache.activity_logs)
+      cache.activity_logs = readJsonFile(DB_FILES.activity_logs, []);
     let logs = cache.activity_logs;
     if (jobId) {
       const cleanId = String(jobId).trim().toUpperCase();
-      logs = logs.filter(l => l.job_id && l.job_id.toUpperCase() === cleanId);
+      logs = logs.filter((l) => l.job_id && l.job_id.toUpperCase() === cleanId);
     }
     return logs.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
   },
@@ -755,13 +1105,15 @@ const db = {
   addActivityLog: (logData) => {
     const logs = db.getActivityLogs();
     const entry = {
-      id: logData.id || `ACT-${Date.now()}-${Math.random().toString(36).substring(2, 6)}`,
+      id:
+        logData.id ||
+        `ACT-${Date.now()}-${Math.random().toString(36).substring(2, 6)}`,
       job_id: logData.job_id || '',
       type: logData.type || 'note',
       title: logData.title || 'Activity',
       description: logData.description || '',
       timestamp: logData.timestamp || new Date().toISOString(),
-      user: logData.user || 'Adarsh Vinothan'
+      user: logData.user || 'Adarsh Vinothan',
     };
     logs.unshift(entry);
     writeJsonAtomic(DB_FILES.activity_logs, logs);
@@ -771,7 +1123,11 @@ const db = {
 
   // 5. INTEGRATIONS & SYNC LOGS
   getIntegration: () => {
-    if (!cache.integrations) cache.integrations = readJsonFile(DB_FILES.integrations, DEFAULT_INTEGRATION);
+    if (!cache.integrations)
+      cache.integrations = readJsonFile(
+        DB_FILES.integrations,
+        DEFAULT_INTEGRATION,
+      );
     return cache.integrations;
   },
 
@@ -784,8 +1140,11 @@ const db = {
   },
 
   getSyncLogs: () => {
-    if (!cache.sync_logs) cache.sync_logs = readJsonFile(DB_FILES.sync_logs, []);
-    return cache.sync_logs.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
+    if (!cache.sync_logs)
+      cache.sync_logs = readJsonFile(DB_FILES.sync_logs, []);
+    return cache.sync_logs.sort(
+      (a, b) => new Date(b.timestamp) - new Date(a.timestamp),
+    );
   },
 
   addSyncLog: (logEntry) => {
@@ -813,8 +1172,12 @@ const db = {
 
   // 6. PROFILE
   getProfile: () => {
-    if (!cache.user_profile) cache.user_profile = readJsonFile(DB_FILES.user_profile, DEFAULT_PROFILE);
-    if (cache.user_profile && cache.user_profile.profile_photo_url === undefined) {
+    if (!cache.user_profile)
+      cache.user_profile = readJsonFile(DB_FILES.user_profile, DEFAULT_PROFILE);
+    if (
+      cache.user_profile &&
+      cache.user_profile.profile_photo_url === undefined
+    ) {
       cache.user_profile.profile_photo_url = '';
     }
     return cache.user_profile;
@@ -833,18 +1196,39 @@ const db = {
     const jobs = db.getJoinedJobs();
     const todayStr = new Date().toISOString().split('T')[0];
 
-    const withFollowUp = jobs.filter(j => j.follow_up_date && j.follow_up_date.trim() !== '');
+    const withFollowUp = jobs.filter(
+      (j) => j.follow_up_date && j.follow_up_date.trim() !== '',
+    );
 
-    const overdue = withFollowUp.filter(j => j.follow_up_date < todayStr && j.application.follow_up_status !== 'completed');
-    const today = withFollowUp.filter(j => j.follow_up_date === todayStr && j.application.follow_up_status !== 'completed');
-    const upcoming = withFollowUp.filter(j => j.follow_up_date > todayStr && j.application.follow_up_status !== 'completed');
-    const completed = withFollowUp.filter(j => j.application.follow_up_status === 'completed');
+    const overdue = withFollowUp.filter(
+      (j) =>
+        j.follow_up_date < todayStr &&
+        j.application.follow_up_status !== 'completed',
+    );
+    const today = withFollowUp.filter(
+      (j) =>
+        j.follow_up_date === todayStr &&
+        j.application.follow_up_status !== 'completed',
+    );
+    const upcoming = withFollowUp.filter(
+      (j) =>
+        j.follow_up_date > todayStr &&
+        j.application.follow_up_status !== 'completed',
+    );
+    const completed = withFollowUp.filter(
+      (j) => j.application.follow_up_status === 'completed',
+    );
 
     return { overdue, today, upcoming, completed, all: withFollowUp };
   },
 
   // 8. CORE MERGE & SYNC ENGINE: PRESERVES USER APPLICATION DATA!
-  syncIncomingJobs: (incomingRows, sourceName = 'Google Sheets', sourceType = 'google_sheets', meta = {}) => {
+  syncIncomingJobs: (
+    incomingRows,
+    sourceName = 'Google Sheets',
+    sourceType = 'google_sheets',
+    meta = {},
+  ) => {
     const existingJobs = db.getJobs();
     const existingApps = db.getApplications();
     const nowIso = new Date().toISOString();
@@ -853,14 +1237,14 @@ const db = {
     const jobsMapByFallback = new Map(); // ONLY for rows missing Job ID
     const appsMap = new Map();
 
-    existingJobs.forEach(j => {
+    existingJobs.forEach((j) => {
       if (j.id) jobsMapById.set(j.id.toUpperCase(), j);
       if (j.job_id) jobsMapById.set(j.job_id.toUpperCase(), j);
       const fallbackKey = `${(j.title || '').toLowerCase().trim()}|${(j.company || '').toLowerCase().trim()}|${(j.location || '').toLowerCase().trim()}|${(j.job_url || '').toLowerCase().trim()}`;
       jobsMapByFallback.set(fallbackKey, j);
     });
 
-    existingApps.forEach(a => {
+    existingApps.forEach((a) => {
       if (a.job_id) appsMap.set(a.job_id.toUpperCase(), a);
     });
 
@@ -879,10 +1263,16 @@ const db = {
       const rowNum = row._rowNumber || idx + 2;
       try {
         const rawJobId = String(row['Job ID'] || row['job_id'] || '').trim();
-        const title = String(row['Job Title'] || row['job_title'] || row['Title'] || '').trim();
+        const title = String(
+          row['Job Title'] || row['job_title'] || row['Title'] || '',
+        ).trim();
         const company = String(row['Company'] || row['company'] || '').trim();
-        const location = String(row['Location'] || row['location'] || 'Dubai, UAE').trim();
-        const jobUrl = String(row['Job Description URL'] || row['job_url'] || '').trim();
+        const location = String(
+          row['Location'] || row['location'] || 'Dubai, UAE',
+        ).trim();
+        const jobUrl = String(
+          row['Job Description URL'] || row['job_url'] || '',
+        ).trim();
 
         // Row validation: A valid job record MUST have either a Job ID or a Job Title
         if (!title && !rawJobId) {
@@ -908,30 +1298,101 @@ const db = {
           }
         }
 
-        const matchScore = normalizeMatchScore(row['Match Score'] || row['match_score']);
-        const rawStatus = String(row['Application Status'] || row['Status'] || row['status'] || 'New').trim();
+        const matchScore = normalizeMatchScore(
+          row['Match Score'] || row['match_score'],
+        );
+        const rawStatus = String(
+          row['Application Status'] || row['Status'] || row['status'] || 'New',
+        ).trim();
         const suggestedStage = mapStatusToStage(rawStatus);
 
         const externalJobData = {
           title: title || matchedJob?.title || 'Untitled Role',
           company: company || matchedJob?.company || 'Unknown Company',
           location: location || matchedJob?.location || 'Dubai, UAE',
-          work_mode: String(row['Work Mode'] || row['work_mode'] || matchedJob?.work_mode || 'On-site').trim(),
-          posted_date: String(row['Posted Date'] || row['posted_date'] || matchedJob?.posted_date || '').trim(),
-          experience_required: String(row['Experience Required'] || row['experience_required'] || matchedJob?.experience_required || '').trim(),
-          key_skills: String(row['Key Technologies / Skills'] || row['key_skills'] || matchedJob?.key_skills || '').trim(),
-          salary: String(row['Salary'] || row['salary'] || matchedJob?.salary || 'Not specified').trim(),
-          match_classification: String(row['Match Classification'] || row['match_classification'] || matchedJob?.match_classification || '🟢 Good Match').trim(),
+          work_mode: String(
+            row['Work Mode'] ||
+              row['work_mode'] ||
+              matchedJob?.work_mode ||
+              'On-site',
+          ).trim(),
+          posted_date: String(
+            row['Posted Date'] ||
+              row['posted_date'] ||
+              matchedJob?.posted_date ||
+              '',
+          ).trim(),
+          experience_required: String(
+            row['Experience Required'] ||
+              row['experience_required'] ||
+              matchedJob?.experience_required ||
+              '',
+          ).trim(),
+          key_skills: String(
+            row['Key Technologies / Skills'] ||
+              row['key_skills'] ||
+              matchedJob?.key_skills ||
+              '',
+          ).trim(),
+          salary: String(
+            row['Salary'] ||
+              row['salary'] ||
+              matchedJob?.salary ||
+              'Not specified',
+          ).trim(),
+          match_classification: String(
+            row['Match Classification'] ||
+              row['match_classification'] ||
+              matchedJob?.match_classification ||
+              '🟢 Good Match',
+          ).trim(),
           match_score: matchScore || matchedJob?.match_score || 70,
-          match_reason: String(row['Match Reason'] || row['match_reason'] || matchedJob?.match_reason || '').trim(),
-          matching_skills: String(row['Matching Skills'] || row['matching_skills'] || matchedJob?.matching_skills || '').trim(),
-          missing_requirements: String(row['Missing Requirements'] || row['missing_requirements'] || matchedJob?.missing_requirements || '').trim(),
+          match_reason: String(
+            row['Match Reason'] ||
+              row['match_reason'] ||
+              matchedJob?.match_reason ||
+              '',
+          ).trim(),
+          matching_skills: String(
+            row['Matching Skills'] ||
+              row['matching_skills'] ||
+              matchedJob?.matching_skills ||
+              '',
+          ).trim(),
+          missing_requirements: String(
+            row['Missing Requirements'] ||
+              row['missing_requirements'] ||
+              matchedJob?.missing_requirements ||
+              '',
+          ).trim(),
           job_url: jobUrl,
-          application_url: String(row['Direct Application URL'] || row['application_url'] || matchedJob?.application_url || '').trim(),
-          source: String(row['Job Source'] || row['source'] || matchedJob?.source || sourceName).trim(),
-          alert_date: String(row['Alert Date'] || row['alert_date'] || matchedJob?.alert_date || '').trim(),
-          alert_time: String(row['Alert Time (UAE)'] || row['alert_time'] || matchedJob?.alert_time || '').trim(),
-          date_added: String(row['Date Added'] || matchedJob?.date_added || nowIso.split('T')[0]).trim(),
+          application_url: String(
+            row['Direct Application URL'] ||
+              row['application_url'] ||
+              matchedJob?.application_url ||
+              '',
+          ).trim(),
+          source: String(
+            row['Job Source'] ||
+              row['source'] ||
+              matchedJob?.source ||
+              sourceName,
+          ).trim(),
+          alert_date: String(
+            row['Alert Date'] ||
+              row['alert_date'] ||
+              matchedJob?.alert_date ||
+              '',
+          ).trim(),
+          alert_time: String(
+            row['Alert Time (UAE)'] ||
+              row['alert_time'] ||
+              matchedJob?.alert_time ||
+              '',
+          ).trim(),
+          date_added: String(
+            row['Date Added'] || matchedJob?.date_added || nowIso.split('T')[0],
+          ).trim(),
         };
 
         if (matchedJob) {
@@ -939,7 +1400,10 @@ const db = {
           // Check if any external fields actually changed
           let hasExternalChange = false;
           for (const key of Object.keys(externalJobData)) {
-            if (externalJobData[key] !== '' && externalJobData[key] !== matchedJob[key]) {
+            if (
+              externalJobData[key] !== '' &&
+              externalJobData[key] !== matchedJob[key]
+            ) {
               hasExternalChange = true;
               break;
             }
@@ -947,7 +1411,9 @@ const db = {
 
           if (hasExternalChange) {
             // Update external fields ONLY
-            const jobIndex = updatedJobsList.findIndex(j => j.id.toUpperCase() === matchedJob.id.toUpperCase());
+            const jobIndex = updatedJobsList.findIndex(
+              (j) => j.id.toUpperCase() === matchedJob.id.toUpperCase(),
+            );
             if (jobIndex >= 0) {
               updatedJobsList[jobIndex] = {
                 ...updatedJobsList[jobIndex],
@@ -961,7 +1427,8 @@ const db = {
               action: 'updated',
               title: matchedJob.title,
               company: matchedJob.company,
-              reason: 'External job details refreshed (Personal application data preserved)'
+              reason:
+                'External job details refreshed (Personal application data preserved)',
             });
           } else {
             duplicateCount++;
@@ -970,14 +1437,16 @@ const db = {
               action: 'duplicate',
               title: matchedJob.title,
               company: matchedJob.company,
-              reason: 'Identical record already exists in database'
+              reason: 'Identical record already exists in database',
             });
           }
 
           // IMPORTANT: NEVER OVERWRITE USER PERSONAL APPLICATION FIELDS!
         } else {
           // NEW RECORD:
-          const finalJobId = rawJobId || `JOB-2026-${String(updatedJobsList.length + 1).padStart(3, '0')}`;
+          const finalJobId =
+            rawJobId ||
+            `JOB-2026-${String(updatedJobsList.length + 1).padStart(3, '0')}`;
           const newJob = {
             id: finalJobId,
             job_id: finalJobId,
@@ -989,13 +1458,18 @@ const db = {
           jobsMapById.set(finalJobId.toUpperCase(), newJob);
 
           // Create default personal application tracking for this new job
-          const initialPriority = calculateDefaultPriority(matchScore, suggestedStage);
+          const initialPriority = calculateDefaultPriority(
+            matchScore,
+            suggestedStage,
+          );
           const newApp = {
             job_id: finalJobId,
             stage: suggestedStage,
             status_detail: rawStatus,
             priority: initialPriority,
-            applied_date: row['Application Date'] || (suggestedStage === 'applied' ? nowIso.split('T')[0] : ''),
+            applied_date:
+              row['Application Date'] ||
+              (suggestedStage === 'applied' ? nowIso.split('T')[0] : ''),
             application_confirmation: row['Application Confirmation'] || '',
             follow_up_date: row['Follow-up Date'] || '',
             follow_up_type: 'email',
@@ -1006,9 +1480,14 @@ const db = {
             recruiter_phone: '',
             notes: row['Notes'] || '',
             personal_rating: matchScore >= 85 ? 5 : matchScore >= 70 ? 4 : 3,
-            resume_status: row['Resume Created'] ? (String(row['Resume Created']).startsWith('Yes') ? 'Ready' : 'Not Started') : 'Not Started',
+            resume_status: row['Resume Created']
+              ? String(row['Resume Created']).startsWith('Yes')
+                ? 'Ready'
+                : 'Not Started'
+              : 'Not Started',
             cover_letter_status: row['Cover Letter Created'] || 'Not required',
-            cover_letter_required: row['Cover Letter Required'] || 'Not specified',
+            cover_letter_required:
+              row['Cover Letter Required'] || 'Not specified',
             resume_version: row['Resume Version'] || '',
             resume_file_link: row['Resume File Link'] || '',
             created_at: nowIso,
@@ -1031,7 +1510,7 @@ const db = {
             type: 'discovered',
             title: `Job Discovered: ${newJob.title} at ${newJob.company}`,
             description: `Imported via ${sourceName}. Match Score: ${matchScore}%.`,
-            user: 'Automated Sync'
+            user: 'Automated Sync',
           });
         }
       } catch (rowErr) {
@@ -1060,7 +1539,9 @@ const db = {
     console.log(`[IMPORT DEBUG] Updated records: ${updatedCount}`);
     console.log(`[IMPORT DEBUG] Duplicates: ${duplicateCount}`);
     console.log(`[IMPORT DEBUG] Failed records: ${errorCount}`);
-    console.log(`[IMPORT DEBUG] Database total after import: ${updatedJobsList.length}`);
+    console.log(
+      `[IMPORT DEBUG] Database total after import: ${updatedJobsList.length}`,
+    );
     console.log(`========================================\n`);
 
     // Create sync log entry
@@ -1072,7 +1553,10 @@ const db = {
       updated_count: updatedCount,
       duplicate_count: duplicateCount,
       error_count: errorCount,
-      status: errorCount > 0 && newCount === 0 && updatedCount === 0 ? 'error' : 'success',
+      status:
+        errorCount > 0 && newCount === 0 && updatedCount === 0
+          ? 'error'
+          : 'success',
       message: `Processed ${totalDetected} rows: ${newCount} new, ${updatedCount} updated, ${duplicateCount} duplicates skipped, ${errorCount} failed. Database total: ${updatedJobsList.length}.`,
       details: changeDetails,
     });
@@ -1100,7 +1584,7 @@ const db = {
       },
       syncLog,
     };
-  }
+  },
 };
 
 module.exports = db;

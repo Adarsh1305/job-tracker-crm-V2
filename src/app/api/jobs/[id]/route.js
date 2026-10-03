@@ -1,6 +1,8 @@
 import { NextResponse } from 'next/server';
 const db = require('@/lib/db');
 
+export const dynamic = 'force-dynamic';
+
 export async function GET(request, { params }) {
   try {
     const { id } = params;
@@ -42,11 +44,14 @@ export async function PUT(request, { params }) {
 
     // Update application fields if provided
     if (body.application) {
-      db.saveApplication({
-        ...existing.application,
-        ...body.application,
-        job_id: existing.id,
-      }, true);
+      db.saveApplication(
+        {
+          ...existing.application,
+          ...body.application,
+          job_id: existing.id,
+        },
+        true,
+      );
     }
 
     const updated = db.getJobById(id);
@@ -56,12 +61,63 @@ export async function PUT(request, { params }) {
   }
 }
 
+// export async function DELETE(request, { params }) {
+//   try {
+//     const { id } = params;
+//     const res = db.deleteJob(id);
+//     return NextResponse.json(res);
+//   } catch (error) {
+//     return NextResponse.json({ error: error.message }, { status: 500 });
+//   }
+// }
+
 export async function DELETE(request, { params }) {
   try {
-    const { id } = params;
-    const res = db.deleteJob(id);
-    return NextResponse.json(res);
+    const { id } = await params;
+
+    if (!id) {
+      return NextResponse.json(
+        {
+          success: false,
+          error: 'Job ID is required',
+        },
+        { status: 400 },
+      );
+    }
+
+    const result = db.deleteJob(id);
+
+    if (!result.success) {
+      return NextResponse.json(
+        {
+          success: false,
+          error: result.error || 'Job not found',
+        },
+        { status: 404 },
+      );
+    }
+
+    db.addActivityLog({
+      type: 'delete',
+      title: `Deleted job ${id}`,
+      description: `Removed job ${id} from the database.`,
+      user: 'Adarsh Vinothan',
+    });
+
+    return NextResponse.json({
+      success: true,
+      deleted: true,
+      jobId: result.jobId || id,
+    });
   } catch (error) {
-    return NextResponse.json({ error: error.message }, { status: 500 });
+    console.error('Delete job error:', error);
+
+    return NextResponse.json(
+      {
+        success: false,
+        error: error.message || 'Failed to delete job',
+      },
+      { status: 500 },
+    );
   }
 }

@@ -5,9 +5,9 @@
   "range": "Sheet1!A1:AI100",
   "autoSync": false,
   "syncIntervalHours": 6,
-  "lastSyncTime": "2026-10-02T14:53:42.008Z",
+  "lastSyncTime": "2026-10-03T08:04:51.568Z",
   "lastSyncStatus": "success",
-  "lastSyncMessage": "Processed 83 rows: 83 new, 0 updated, 0 duplicates skipped, 0 failed. Database total: 83.",
+  "lastSyncMessage": "Processed 85 rows: 85 new, 0 updated, 0 duplicates skipped, 0 failed. Database total: 85.",
   "csvUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTY0UklnaYodw1aDjYbqD1q-L23ExGJOSG6H6UftZhJSQacySMcfOi3Pv1Z7KHjZpISNUHKhxiBpB3O/pub?gid=0&single=true&output=csv",
   "apiKey": "",
   "serviceAccountEmail": ""
